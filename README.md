@@ -78,7 +78,7 @@ You can customize the colors of your social sharing buttons to match your websit
 <summary>
 Question 1: Can I customize the appearance of the social sharing buttons?
 </summary>
-**Answer**: Yes, the SEO Book Pro Sharing Buttons Plugin provides various button styles to choose from. You can select a style that matches your website's design and aesthetics.
+> **Answer**: Yes, the SEO Book Pro Sharing Buttons Plugin provides various button styles to choose from. You can select a style that matches your website's design and aesthetics.
 </details>
 <hr>
 
@@ -86,7 +86,7 @@ Question 1: Can I customize the appearance of the social sharing buttons?
 <summary>
 Question 2: Can I change the color of the sharing buttons?
 </summary>
-**Answer**: Absolutely! Our plugin offers custom color settings for each location where the buttons are displayed. You have full control over the look and feel of your buttons.
+> **Answer**: Absolutely! Our plugin offers custom color settings for each location where the buttons are displayed. You have full control over the look and feel of your buttons.
 </details>
 <hr>
 <details>
