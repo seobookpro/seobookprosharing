@@ -113,11 +113,12 @@ You can customize the colors of your social sharing buttons to match your websit
 <details>
 <summary>Question: How can I install the plugin?</summary>
 **Answer**: To install the SEO Book Pro Sharing Buttons Plugin, you can follow these simple steps:
-- Download the plugin from the WordPress plugin repository or clone it from the GitHub repository.
-- Upload the plugin files to the /wp-content/plugins/seo-book-pro-sharing-buttons directory of your WordPress installation.
-- Activate the plugin through the 'Plugins' menu in your WordPress dashboard.
-- Go to the plugin settings page, located under 'Settings' -> 'SEO Book Pro Sharing Buttons', to configure the plugin according to your preferences.
-- Customize the sharing buttons, select the social networks, choose the display locations, and save your settings.
+  
+ * Download the plugin from the WordPress plugin repository or clone it from the GitHub repository.
+ * Upload the plugin files to the /wp-content/plugins/seo-book-pro-sharing-buttons directory of your WordPress installation.
+ * Activate the plugin through the 'Plugins' menu in your WordPress dashboard.
+ * Go to the plugin settings page, located under 'Settings' -> 'SEO Book Pro Sharing Buttons', to configure the plugin according to your preferences.
+ * Customize the sharing buttons, select the social networks, choose the display locations, and save your settings.
 </details>
 
 <hr>
@@ -172,7 +173,7 @@ We are grateful for any amount you are able to donate, no matter how small. Your
 
 To make a donation, please visit our website or click on the donation link below. We genuinely appreciate your support and thank you for being a part of our journey.
 
-> [Make a Donation](https://www.paypal.com/donate/?hosted_button_id=C36EVYX8YLQKN){:target="_blank" rel="noopener"}
+> [Make a Donation](https://www.paypal.com/donate/?hosted_button_id=C36EVYX8YLQKN)
 
 Thank you for considering supporting our work. Your contribution goes a long way in enabling us to deliver high-quality products and services that meet your needs and exceed your expectations.
 Any Donations are apreciated - Donate to SEO Book Pro Sharing Buttons
