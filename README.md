@@ -77,6 +77,7 @@ You can customize the colors of your social sharing buttons to match your websit
 
 <details>
 <summary>Question 1: Can I customize the appearance of the social sharing buttons?</summary>
+
 **Answer**: Yes, the SEO Book Pro Sharing Buttons Plugin provides various button styles to choose from. You can select a style that matches your website's design and aesthetics.
 </details>
 
@@ -84,6 +85,7 @@ You can customize the colors of your social sharing buttons to match your websit
 
 <details>
 <summary>Question 2: Can I change the color of the sharing buttons?</summary>
+
 **Answer**: Absolutely! Our plugin offers custom color settings for each location where the buttons are displayed. You have full control over the look and feel of your buttons.
 </details>
 
@@ -91,6 +93,7 @@ You can customize the colors of your social sharing buttons to match your websit
 
 <details>
 <summary>Question 3: Can I choose which social networks to include for sharing?</summary>
+
 **Answer**: Yes, you can select the social networks you want to include from a list of supported networks, including Facebook,Twitter, LinkedIn, Reddit, Pinterest, Send to Email, and Save as PDF. You have the flexibility to choose the networks that are most relevant to your audience and content
 </details>
 
@@ -98,6 +101,7 @@ You can customize the colors of your social sharing buttons to match your websit
 
 <details>
 <summary>Question 4: Can I control where the sharing buttons are displayed?</summary>
+
 **Answer**: Absolutely! The plugin offers six different locations where you can show the social media sharing buttons. You can choose to display them in the sidebar, above and below the content, as a fly-in or popup, or even on images and videos.
 </details>
 
@@ -105,6 +109,7 @@ You can customize the colors of your social sharing buttons to match your websit
 
 <details>
 <summary>Question 5: Is the plugin responsive and mobile-friendly?</summary>
+
 **Answer**: Yes, the SEO Book Pro Sharing Buttons Plugin is fully responsive and works seamlessly on mobile devices. Your audience can easily share your content from any device, ensuring a consistent experience across all platforms.
 </details>
 
@@ -112,8 +117,9 @@ You can customize the colors of your social sharing buttons to match your websit
 
 <details>
 <summary>Question: How can I install the plugin?</summary>
+
 **Answer**: To install the SEO Book Pro Sharing Buttons Plugin, you can follow these simple steps:
-  
+
  * Download the plugin from the WordPress plugin repository or clone it from the GitHub repository.
  * Upload the plugin files to the /wp-content/plugins/seo-book-pro-sharing-buttons directory of your WordPress installation.
  * Activate the plugin through the 'Plugins' menu in your WordPress dashboard.
@@ -125,8 +131,11 @@ You can customize the colors of your social sharing buttons to match your websit
 
 <details>
 <summary>Question: Can I disable the sharing buttons on specific types of content?</summary>
+
 **Answer**: Yes, the plugin provides the option to enable or disable the sharing buttons on specific types of content, such as pages, posts, or custom post types. You have the flexibility to choose where the buttons appear based on your content strategy.
 </details>
+
+<hr>
 
 ## Support and Documentation
 
