@@ -112,7 +112,7 @@ You can customize the colors of your social sharing buttons to match your websit
 <details>
 <summary>Question: Can I disable the sharing buttons on specific types of content?</summary>
 **Answer**: Yes, the plugin provides the option to enable or disable the sharing buttons on specific types of content, such as pages, posts, or custom post types. You have the flexibility to choose where the buttons appear based on your content strategy.
-<details>
+</details>
 <hr>
 ## Support and Documentation
 
