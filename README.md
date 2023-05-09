@@ -6,6 +6,9 @@
 * Plugin Author: Dimitar Krumov
 * Plugin Author URI: https://seobookpro.com/
 
+
+> [**SEO Book Pro Sharing Buttons Demo**](https://seobookpro.com/share-buttons/)
+> 
 ## Features
 
 ### Grow your social engagement
