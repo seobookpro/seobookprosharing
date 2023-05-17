@@ -1,0 +1,389 @@
+ul.navbar-nav.me-auto.mb-2.mb-md-0 {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 100%;
+        gap: 8px;
+}
+input#save-basic-seo {
+        background: #fdbf0d;
+        padding: 4px 15px;
+        margin: 0px 20px;
+        max-height: 34px;
+        border-radius: 48px;
+        color: #212529;
+        font-size: 16px;
+        line-height: 1.75rem;
+        display: flex;
+        flex-direction: row;
+        min-width: 96.54px;
+        justify-content: center;
+        text-transform: uppercase;
+        font-weight: 900;
+        border: 1px solid #fff;
+}
+.tabs {
+  font-family: "lucida grande", sans-serif;
+}
+
+[role="tablist"] {
+  min-width: 100%;
+}
+
+[role="tab"],
+[role="tab"]:focus,
+[role="tab"]:hover {
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+  top: 2px;
+  margin: 0;
+  margin-top: 4px;
+  padding: 3px 3px 4px;
+  border: 1px solid hsl(219deg 1% 72%);
+  border-bottom: 2px solid hsl(219deg 1% 72%);
+  border-radius: 5px 5px 0 0;
+  background: hsl(220deg 20% 94%);
+  outline: none;
+  font-weight: bold;
+  max-width: 22%;
+  overflow: hidden;
+  text-align: left;
+  cursor: pointer;
+}
+
+[role="tab"][aria-selected="true"] {
+  padding: 2px 2px 4px;
+  margin-top: 0;
+  border-width: 2px;
+  border-top-width: 6px;
+  border-top-color: rgb(36 116 214);
+  border-bottom-color: hsl(220deg 43% 99%);
+  background: hsl(220deg 43% 99%);
+}
+
+[role="tab"][aria-selected="false"] {
+  border-bottom: 1px solid hsl(219deg 1% 72%);
+}
+
+[role="tab"] span.focus {
+  display: inline-block;
+  margin: 2px;
+  padding: 4px 6px;
+}
+
+[role="tab"]:hover span.focus,
+[role="tab"]:focus span.focus,
+[role="tab"]:active span.focus {
+  padding: 2px 4px;
+  border: 2px solid rgb(36 116 214);
+  border-radius: 3px;
+}
+
+[role="tabpanel"] {
+  padding: 5px;
+  border: 2px solid hsl(219deg 1% 72%);
+  border-radius: 0 5px 5px;
+  background: hsl(220deg 43% 99%);
+  min-height: 10em;
+  width: 100%;
+  overflow: auto;
+}
+
+[role="tabpanel"].is-hidden {
+  display: none;
+}
+
+[role="tabpanel"] p {
+  margin: 0;
+}
+.basic-fixed {
+        width: -webkit-fill-available;
+        position: fixed;
+        background: #ffc009;
+        left: 0;
+        right: 0;
+        top: 32px;
+        padding: 20px;
+        text-align: center;
+        border-bottom: 3px solid #070c4f;
+        box-shadow: 0px 30px 35px -30px #000;
+}
+
+
+
+
+.progress-bar{
+background-color: #00ab08;
+}
+.switch-field {
+        display: flex;
+        column-gap: 7px;
+        padding: 0px 20px 25px 20px;
+        box-shadow: 0px 15px 10px -15px #000;
+        margin: 0px 0px 20px 0px;
+        width: 100%;
+        justify-content: flex-start;
+        border-bottom: 3px solid #ffc009;
+        flex-direction: row;
+        align-items: flex-end;
+}
+
+.switch-field input {
+	position: absolute !important;
+	clip: rect(0, 0, 0, 0);
+	height: 1px;
+	width: 1px;
+	border: 0;
+	overflow: hidden;
+}
+
+.switch-field label {
+	background-color: #e4e4e4;
+	color: rgba(0, 0, 0, 0.6);
+	font-size: 14px;
+	line-height: 1;
+	text-align: center;
+	padding: 8px 16px;
+	margin-right: -1px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+	transition: all 0.1s ease-in-out;
+}
+
+.switch-field label:hover {
+	cursor: pointer;
+}
+
+.switch-field input:checked + label {
+	background-color: #a5dc86;
+	box-shadow: none;
+}
+
+.switch-field label:first-of-type {
+	border-radius: 4px 0 0 4px;
+}
+
+.switch-field label:last-of-type {
+	border-radius: 0 4px 4px 0;
+}
+
+.columnfiler {
+        float: left;
+        width: 24%;
+        margin:8px 8px 40px 8px;
+        min-height: 330px;
+        background: #ffffff;
+        border: 3px solid #1c4295;
+        padding: 25px;
+        border-radius: 4px;
+        box-shadow: 0px 40px 30px -40px #000;
+        transition: all .8s ease;
+}
+h3.seobpsbfw-page-speed{
+font-size: 24px;font-weight: 100;border-bottom: 2px solid #0012ff;padding: 0px 0px 15px 0px;margin: 0px 0px 30px 0px;box-shadow: 0px 15px 10px -13px #000;color: #000;
+}
+
+div#dialog-scroll-all {
+        height: 380px;
+        max-height: 100%;
+        min-height: 100%;
+        overflow-y: scroll;
+        padding: 0px;
+        overflow-x: hidden;
+scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+
+div#dialog-scroll-all::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+
+}
+div#dialog-scroll-all::-webkit-scrollbar-thumb {
+  background-color: #4b347b;
+  border-radius: 1px;
+  border: 1px solid #ffc009;
+}
+div#dialog-scroll-all::-webkit-scrollbar {
+  width: 6px;
+  background: #ffc009;
+}
+.wrap-basic-seo{
+margin: 120px 0px 0px 0px;
+}
+/* Create two equal columns that floats next to each other */
+
+/* Clear floats after the columns */
+.rowfiler:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Style the buttons */
+.btnfiler {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btnfiler:hover {
+  background-color: #ddd;
+}
+
+.btnfiler.active {
+  width: 33%;
+  height: 30px;
+  margin: 0px;
+  line-height: 0;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  border-radius: 4px;
+  font-size: 14px;
+  align-content: center;
+}
+div#btnContainer {
+        position: fixed;
+        top: 30px;
+        z-index: 99999999999 !important;
+        text-align: center;
+        left: 10%;
+        margin: 6px auto;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0px !IMPORTANT;
+        /* overflow: hidden; */
+        width: auto;
+        flex-direction: row;
+        align-content: stretch;
+        flex-wrap: wrap;
+        align-items: baseline;
+        line-height: 0;
+        padding: 0px !important;
+}
+@media screen and (max-width: 1024px) {
+.columnfiler {
+        width: 100%;
+        padding: 20px;
+        margin: 20px 0px 20px 0px !important;
+}
+.rowfiler {
+        padding: 5px;
+        margin: 5px;
+}
+.basic-fixed {
+        width: -webkit-fill-available;
+        position: fixed;
+        background: #ffc009;
+        left: 0;
+        right: 0;
+        top: 0px;
+        padding: 20px;
+        text-align: center;
+        border-bottom: 3px solid #070c4f;
+        box-shadow: 0px 30px 35px -30px #000;
+        z-index: 9999999 !important;
+}
+.auto-fold #wpcontent {
+        position: relative;
+        margin-left: 0;
+        padding-left: 0px !important;
+}
+.wrap-basic-seo{margin: 0px 0px 0px 0px;}
+button.btnfiler {
+  width: 33%;
+  height: 30px;
+  margin: 0px;
+  line-height: 0;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  border-radius: 4px;
+  font-size: 14px;
+  align-content: center;
+align-items: center;
+}
+
+input#save-basic-seo {
+        padding: 0px;
+        right: 40px;
+        position: fixed;
+        width: 30%;
+        line-height: 0rem;
+        height: 40px !important;
+        max-height: 3.5%;
+        min-height: 3.5%;
+        top: 5px;
+}
+.mobile-grid-list{
+        padding: 0px;
+        margin: 0px;
+
+}
+.btnfiler.active {
+  width: 33%;
+  height: 30px;
+  margin: 0px;
+  line-height: 0;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  border-radius: 4px;
+  font-size: 14px;
+  align-content: center;
+align-items: center;
+}
+}
+.progress {
+        background: #b30000;
+        margin: 10px 0px 0px 0px;
+}
+.switch-field label:first-of-type {
+        border-radius: 4px;
+}
+.switch-field label:last-of-type {
+        border-radius: 4px;
+}
+
+
+ul.navbar-nav.me-auto.mb-1.mb-md-0.bsnav {
+        display: flex;
+        width: 80%;
+        padding: 0px;
+        margin: 0px 20px 0px 20px;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: stretch;
+        flex-direction: row;
+}
+.container.basicnav{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+}
+
+p.submit.basicnav {
+        text-align: left;
+        max-width: 100%;
+        margin-top: 0px;
+        padding: 0px;
+}

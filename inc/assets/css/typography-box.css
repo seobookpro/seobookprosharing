@@ -1,0 +1,81 @@
+button.sharing {
+background: green;
+color: #fff;
+padding: 5px 40px;
+text-transform: uppercase;
+font-size: 43px;
+font-weight: 600;
+border-radius: 4px;
+border: none;
+}
+
+.tg {
+border-collapse:collapse;
+border-spacing:0;
+}
+
+.tg td {
+border-color:gray;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+
+.tg th {
+border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+
+.tg .tg-st9d {
+font-family:Tahoma, Geneva, sans-serif !important;font-size:20px;position:-webkit-sticky;position:sticky;
+  text-align:center;top:-1px;vertical-align:top;will-change:transform;
+}
+
+.tg .tg-b4lo {
+background-color:#ccc;border-color:#ccc;color:#000;font-family:Arial, Helvetica, sans-serif !important;
+  font-size:12px;text-align:center;vertical-align:top;
+}
+
+.tg .tg-c3ow {
+border-color:inherit;text-align:center;vertical-align:top;
+}
+
+.tg .tg-7btt{
+border-color:inherit;
+font-weight:bold;
+text-align:center;
+vertical-align:top;
+}
+
+@media screen and (max-width: 767px) {
+
+.tg {
+width: auto !important;
+}
+.tg col {
+width: auto !important;
+}
+.tg-wrap {
+overflow-x: auto;-webkit-overflow-scrolling: touch;
+}
+
+}
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+

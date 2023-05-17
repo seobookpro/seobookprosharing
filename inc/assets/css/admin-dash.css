@@ -1,3 +1,23 @@
+a span.brand {
+        font-size: 14px;
+        vertical-align: middle;
+        color: #febe0c;
+        padding: 0px 10px;
+        letter-spacing: 0;
+        text-transform: uppercase;
+        font-weight: 500;
+}
+
+
+span.dashicons.dashicons-wordpress {
+        font-size: 28px;
+        margin: 0px 10px;
+        line-height: 2rem;
+        padding: 0px;
+        height: 30px;
+        width: auto;
+        color: #070c4f;
+}
 span.material-icons.restart {
     font-size: 19px;
     color: #212529;
@@ -5,8 +25,25 @@ span.material-icons.restart {
     text-shadow: 0px 0px 10px #145300;
 }
 
-
-
+img.admin-social-live {
+    width: auto;
+    height: 70px;
+    margin: 0px 0px 10px 0px;
+}
+header.adt {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    top: 63px;
+    background: #ffc009;
+    z-index: 999999;
+    border-bottom: 1px solid #000;
+    width: 90%;
+    padding: 17px;
+    justify-content: center;
+    align-content: stretch;
+}
 input.inrange {
     max-height: 8px;
 }
@@ -56,28 +93,36 @@ columns: 3;
     flex-wrap: wrap;
 }
 h1.wrap-title{
-font-size: 43px;
+font-size: 30px;
     margin: 20px 25px 20px 25px;
     color: #114c00;
     font-weight: 900;
     text-transform: uppercase;
 }
-.wrap {
-    margin: 0px auto;
-    display: flex;
-    width: 100%;
+.wrapsbpsbwp {
+        margin: 0px auto;
+        display: flex;
+        width: 94%;
+        max-height: 100%;
+        min-height: 100%;
+        height: 880px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        border: 1px solid #000;
+        border-radius: 8px;
+        flex-direction: row;
 }
-.wrap .left {
+.wrapsbpsbwp .left {
     width: 68.6%;
     display: flex;
-    padding: 15px;
+    padding: 40px 0px 40px 0px;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: flex-start;
     align-items: center;
-    margin: 0px 25px 0px 0px;
+    margin: 115px 0px 0px 0px;
 }
-.wrap .right {
+.wrapsbpsbwp .right {
     width: 100%;
     padding: 15px;
     background: #309f0e38;
@@ -109,13 +154,12 @@ ul.auto{
         margin-bottom: 0px;
     }
 .nav-tabs li.nav-item{margin: 0px 4.7px 0px 0px;}
-    .nav-link {
-        background-color: #fcbf0b;
-        color: #000;
+.nav-link {
+        color: #febe0c;
         border-radius: 0px !IMPORTANT;
         transition: background-color 1.3s ease;
         position: relative;
-    }
+}
 
     .nav-link.active,
     .nav-link:focus,

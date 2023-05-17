@@ -1,0 +1,44 @@
+img.social-banner {
+    min-height: 81px;
+    object-fit: cover;
+    width: 100%;
+    margin: 0px 0px 20px 0px;
+    box-shadow: 0px 30px 14px -25px #000;
+    border: 1px dotted #000;
+    border-radius: 4px;
+}
+
+.box {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.5s ease-out;
+}
+
+.box:nth-child(1) {
+  transition-delay: 0s;
+}
+
+.box:nth-child(2) {
+  transition-delay: 0.2s;
+}
+
+.box:nth-child(3) {
+  transition-delay: 0.4s;
+}
+
+.box:nth-child(4) {
+  transition-delay: 0.6s;
+}
+
+.box:nth-child(5) {
+  transition-delay: 0.8s;
+}
+
+.box:nth-child(6) {
+  transition-delay: 1s;
+}
+
+.box.loaded {
+  opacity: 1;
+  transform: translateY(0);
+}
