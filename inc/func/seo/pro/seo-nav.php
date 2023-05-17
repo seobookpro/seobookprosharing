@@ -69,6 +69,28 @@
 </ul>
         </li>
 
+        <li class="nav-item dropdown">
+          <a class="icon-link nav-link dropdown-toggle" href="wp-admin/admin.php?page=seobpsb-basic-seo" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Demos
+          </a>
+<ul class="dropdown-menu">
+  <li><a class="dropdown-item" href="https://seobookpro.com/wordpress/seo-book-pro-plugins/demos/">WP Emoji Scripts</a></li>
+  <li><a class="dropdown-item" href="https://seobookpro.com/wordpress/seo-book-pro-plugins/demos/">Gutenberg Page Blocks</a></li>
+  <li><a class="dropdown-item" href="https://seobookpro.com/wordpress/seo-book-pro-plugins/demos/">Global CSS Styles</a></li>
+  <li><a class="dropdown-item" href="https://seobookpro.com/wordpress/seo-book-pro-plugins/demos/">Enable Lazy Load</a></li>
+  <li><a class="dropdown-item" href="https://seobookpro.com/wordpress/seo-book-pro-plugins/demos/">Custom Images Sizes</a></li>
+  <li><a class="dropdown-item" href="https://seobookpro.com/wordpress/seo-book-pro-plugins/demos/">Block Library CSS</a></li>
+  <li><a class="dropdown-item" href="https://seobookpro.com/wordpress/seo-book-pro-plugins/demos/">SVG Filters</a></li>
+  <li><a class="dropdown-item" href="https://seobookpro.com/wordpress/seo-book-pro-plugins/demos/">Global Styles CSS</a></li>
+  <li><a class="dropdown-item" href="https://seobookpro.com/wordpress/seo-book-pro-plugins/demos/">Edit URI Link</a></li>
+  <li><a class="dropdown-item" href="https://seobookpro.com/wordpress/seo-book-pro-plugins/demos/">CSS Query Strings</a></li>
+  <li><a class="dropdown-item" href="https://seobookpro.com/wordpress/seo-book-pro-plugins/demos/">MSA Windows Live Wiriter</a></li>
+  <li><a class="dropdown-item" href="https://seobookpro.com/wordpress/seo-book-pro-plugins/demos/">Wlwmanifest Link</a></li>
+  <li><a class="dropdown-item" href="https://seobookpro.com/wordpress/seo-book-pro-plugins/demos/">Embeded Links Script</a></li>
+</ul>
+        </li>
+
+
       </ul>
 
 
