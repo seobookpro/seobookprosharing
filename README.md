@@ -2,13 +2,13 @@
 
 > The SEO Book Pro Sharing Buttons Plugin is a powerful #WordPress plugin that allows you to easily add social sharing buttons to your content. By enabling social sharing, you can boost engagement with your audience and drive more traffic to your website. With a range of customization options and innovative button styles, this plugin gives you full control over how your content is shared on popular social networks.
 
-* Plugin Version: 1.0.8
+* Plugin Version: 1.0.9
 * Plugin Author: Dimitar Krumov
 * Plugin Author URI: https://seobookpro.com/
 
 
 > [**SEO Book Pro Sharing Buttons Demo**](https://seobookpro.com/share-buttons/)
-> 
+> [**SEO Book Pro Page Speed Basic Settings Demo**](https://seobookpro.com/page-speed-demo/)
 ## Features
 
 ### Grow your social engagement
