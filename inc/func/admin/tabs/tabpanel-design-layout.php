@@ -112,7 +112,7 @@ color: #fff;
 <div class="save-heading">
   <?php submit_button('Save Changes', 'sharing', 'submit', true); ?>
 
- 
+
            </div>
 
 

@@ -3,7 +3,7 @@
  * Plugin Name: SEO Book PRO Sharing
  * Plugin URI: https://seobookpro.com/sharing/
  * Description: Sharing Plugin for WordPress websites
- * Version: 1.0.9
+ * Version: 1.0.7
  * Author: Dimitar Krumov
  * Author URI: https://seobookpro.com/
  * Text Domain: seobookprosharing
@@ -79,8 +79,15 @@ foreach( glob( plugin_dir_path( __FILE__ ) . 'inc/assets/js/*.js' ) as $file ) {
 add_action( 'admin_enqueue_scripts', 'seobpsbfw_load_bootstrap' );
 
 
+
+
+
+
+
+
 function seobpsbfw_enqueue_custom_styles() {
 // Load All CSS Styles and JavaScripts from the main Assets Folder for the Front End
+    wp_enqueue_style('custom-styles', plugin_dir_url( __FILE__ ) . 'inc/css/custom.css');
 
  // Load All CSS Styles from the /inc/css/ Folder
     foreach( glob( plugin_dir_path( __FILE__ ) . 'inc/css/*.css' ) as $file ) {
@@ -102,10 +109,24 @@ add_action( 'wp_enqueue_scripts', 'seobpsbfw_load_external_styles' );
 
 // Loading External Styles and Scripts to Get Work in to the Front End of the Plugin for the Public not the admin part
 function seobpsbfw_load_external_javascripts() {
+    wp_enqueue_script( 'jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js');
+    wp_enqueue_script( 'jquery-3-5-0', 'https://code.jquery.com/jquery-3.5.0.js');
+    wp_enqueue_script( 'jquery-min', 'https://code.jquery.com/jquery-3.3.1.min.js');
+    wp_enqueue_script( 'platform', 'https://apis.google.com/js/platform.js');
     wp_enqueue_script( 'bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js' );
     wp_enqueue_script( 'popper', 'https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js' );
 }
 add_action( 'wp_enqueue_scripts', 'seobpsbfw_load_external_javascripts' );
+
+
+function seobpsbfw_enqueue_scripts() {
+    wp_enqueue_script('button-styles', plugin_dir_url(__FILE__) . 'inc/js/button-styles.js', array('jquery'), '1.9', true);
+    wp_localize_script('button-styles', 'seobpsbfw_ajax_object', array(
+        'ajaxurl' => admin_url('admin-ajax.php'), // Corrected AJAX URL
+    ));
+}
+add_action('wp_enqueue_scripts', 'seobpsbfw_enqueue_scripts');
+
 
 function seobpsbfw_add_menu_pages() {
     add_menu_page(

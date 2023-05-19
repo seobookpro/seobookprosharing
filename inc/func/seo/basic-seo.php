@@ -1,6 +1,27 @@
 <?php
 
-// Get the path to the plugin directory
+function seobpsbfw_display_admin_form_after_content($content) {
+    if (is_user_logged_in() && current_user_can('administrator')) {
+        ob_start(); // Start output buffering
+        ?>
+<?php include (SEOBPSBFW_PLUGIN_DIR . 'inc/func/seo/pro/front/buttons-styles.php'); ?>
+<?php //include (SEOBPSBFW_PLUGIN_DIR . 'inc/js/button-styles.php'); ?>
+
+      
+
+        <?php
+        $form_html = ob_get_clean(); // Get the buffered content and clear the buffer
+        $content .= $form_html; // Append the form HTML to the content
+
+    }
+     else {
+             echo "Get the SEO Book Pro - SEO Plugin for WordPress to make live edits on the Front End - <a href=''#'>Live Demo</a>";
+  }
+    return $content;
+}
+add_filter('the_content', 'seobpsbfw_display_admin_form_after_content');
+
+
 
 // Include the advanced tabs file
 
@@ -223,11 +244,20 @@ if (isset($_POST['seobpsbfw_add_wp_theme_post_featured_images_support'])) {
     $enable_wp_post_featured_images = sanitize_text_field($_POST['seobpsbfw_add_wp_theme_post_featured_images_support']);
     update_option('seobpsbfw_add_wp_theme_post_featured_images_support', $enable_wp_post_featured_images);
 }
+if (isset($_POST['seobpsbfw_share_container_box_text_font_family'])) {
+    $sc_share_box_text_font_family = sanitize_text_field($_POST['seobpsbfw_share_container_box_text_font_family']);
+    update_option('seobpsbfw_share_container_box_text_font_family', $sc_share_box_text_font_family);
+}
+if (isset($_POST['seobpsbfw_share_container_margin_units'])) {
+    $sc_share_margin_units = sanitize_text_field($_POST['seobpsbfw_share_container_margin_units']);
+    update_option('seobpsbfw_share_container_margin_units', $sc_share_margin_units);
+}
         if (isset($_POST['seobpsbfw_share_container_box_text_transform'])) {
             update_option('seobpsbfw_share_container_box_text_transform', sanitize_text_field($_POST['seobpsbfw_share_container_box_text_transform']));
         }
 
 
+    $sc_share_box_text_font_family = get_option( 'seobpsbfw_share_container_box_text_font_family', '' );
     $disable_emoji = get_option( 'seobpsbfw_disable_emoji', '' );
     $disable_wp_block_library = get_option( 'seobpsbfw_disable_wp_block_library_css', '' );
     $disable_global_styles_css = get_option( 'seobpsbfw_disable_global_css_styles', '' );
@@ -240,9 +270,11 @@ if (isset($_POST['seobpsbfw_add_wp_theme_post_featured_images_support'])) {
     $enable_wp_post_featured_images = get_option('seobpsbfw_add_wp_theme_post_featured_images_support', '');
      //$enabled_featured_images_for_post_types = get_option('seobpsbfw_enable_featured_images_for_post_types', '' );
     $sc_share_box_text_transform = get_option('seobpsbfw_share_container_box_text_transform');
+$sc_share_margin_units = get_option('seobpsbfw_share_container_margin_units');
 
 
 ?>
+
     <div class="wrap-basic-seo">
 
 
@@ -295,7 +327,7 @@ if (isset($_POST['seobpsbfw_add_wp_theme_post_featured_images_support'])) {
 
   </div>
 
-       <form id="myForm" class="form" method="post">
+                                                                                                                                                                                                                                                                                               <form id="myForm" class="form" method="post">
 
 <div class="rowfiler">
 
@@ -594,16 +626,5 @@ add_action( 'admin_enqueue_scripts', 'seobpsbfw_remove_wp_emoji' );
 
 
 
-add_action('wp_ajax_save_share_container_box_text_transform_ajax', 'save_share_container_box_text_transform_ajax_handler');
-function save_share_container_box_text_transform_ajax_handler() {
-    // Get the value from the AJAX request
-    $selectedValue = sanitize_text_field($_POST['value']);
 
-    // Perform the save operation here
-    // Update the necessary values or options
-    update_option('seobpsbfw_share_container_box_text_transform', $selectedValue);
-
-    // Send a response back to the AJAX request
-    wp_send_json_success();
-}
 
